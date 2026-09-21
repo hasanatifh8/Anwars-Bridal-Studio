@@ -30,84 +30,58 @@ export const stylists = [
     {
         id: 5,
         src: "/images/world-class-speakers/speakers_5.png",
-        alt: "Spa Therapist",
+        alt: "Skin Specialist & Mehendi Artist",
         name: "Meera Iyer",
-        designation: "Spa & Skin Therapist",
+        designation: "Skin Specialist & Mehendi Artist",
     },
 ];
 
 export type ServiceItem = {
     name: string;
-    duration: string;
-    price: string;
-};
-
-export type ServiceCategory = {
-    category: string;
     icon: string;
-    items: ServiceItem[];
+    description: string;
 };
 
-export const services: ServiceCategory[] = [
+export const services: ServiceItem[] = [
     {
-        category: "Hair",
-        icon: "mdi:content-cut",
-        items: [
-            { name: "Haircut & Styling", duration: "45 min", price: "₹499" },
-            { name: "Global Hair Colour", duration: "90 min", price: "₹2,499" },
-            { name: "Keratin Smoothening", duration: "150 min", price: "₹4,999" },
-            { name: "Hair Spa & Treatment", duration: "60 min", price: "₹1,299" },
-        ],
+        name: "Bridal Makeup",
+        icon: "mdi:crown-outline",
+        description: "Complete bridal transformation for your big day, tailored to your outfit and skin tone.",
     },
     {
-        category: "Skin & Face",
-        icon: "mdi:face-woman-shimmer",
-        items: [
-            { name: "Signature Facial", duration: "60 min", price: "₹1,499" },
-            { name: "De-Tan Treatment", duration: "30 min", price: "₹799" },
-            { name: "Clean-up & Polish", duration: "40 min", price: "₹699" },
-            { name: "Anti-Ageing Facial", duration: "75 min", price: "₹2,199" },
-        ],
-    },
-    {
-        category: "Nails",
-        icon: "mdi:hand-back-right-outline",
-        items: [
-            { name: "Classic Manicure", duration: "30 min", price: "₹499" },
-            { name: "Classic Pedicure", duration: "45 min", price: "₹599" },
-            { name: "Gel Polish", duration: "45 min", price: "₹899" },
-            { name: "Nail Art (per hand)", duration: "30 min", price: "₹399" },
-        ],
-    },
-    {
-        category: "Bridal & Makeup",
+        name: "Party Makeup",
         icon: "mdi:lipstick",
-        items: [
-            { name: "Party Makeup", duration: "60 min", price: "₹2,999" },
-            { name: "Bridal Makeup", duration: "180 min", price: "₹14,999" },
-            { name: "Pre-Bridal Package", duration: "3 sessions", price: "₹9,999" },
-            { name: "Saree/Hair Draping", duration: "30 min", price: "₹999" },
-        ],
+        description: "Event-ready glam for engagements, receptions and every celebration in between.",
     },
     {
-        category: "Spa & Massage",
-        icon: "mdi:spa-outline",
-        items: [
-            { name: "Swedish Body Massage", duration: "60 min", price: "₹1,999" },
-            { name: "Head & Shoulder Massage", duration: "30 min", price: "₹799" },
-            { name: "Foot Reflexology", duration: "45 min", price: "₹999" },
-            { name: "Aroma Therapy", duration: "60 min", price: "₹2,299" },
-        ],
+        name: "Hair Styling",
+        icon: "mdi:content-cut",
+        description: "Cuts, updos and styling for everyday looks and special occasions alike.",
     },
     {
-        category: "Grooming (Men)",
-        icon: "mdi:razor-double-edge",
-        items: [
-            { name: "Beard Trim & Shape", duration: "20 min", price: "₹299" },
-            { name: "Hot Towel Shave", duration: "30 min", price: "₹399" },
-            { name: "Head Massage", duration: "20 min", price: "₹349" },
-            { name: "Complete Grooming Package", duration: "90 min", price: "₹1,799" },
-        ],
+        name: "Skin Treatment",
+        icon: "mdi:face-woman-shimmer",
+        description: "Facials and skin care treatments to help you glow before the big day.",
+    },
+    {
+        name: "Nail Art",
+        icon: "mdi:hand-back-right-outline",
+        description: "Manicures, pedicures and custom nail art to match your outfit and mood.",
+    },
+    {
+        name: "Mehendi Design",
+        icon: "mdi:flower-outline",
+        description: "Intricate, custom mehendi designs for brides and guests.",
+    },
+    {
+        name: "Saree Draping",
+        icon: "mdi:human-female",
+        description: "Elegant saree and dupatta draping in classic and contemporary styles.",
+    },
+    {
+        name: "Makeup Classes",
+        icon: "mdi:school-outline",
+        description: "Learn professional makeup techniques directly from our team.",
     },
 ];
 
@@ -123,7 +97,7 @@ export const offers = [
         buttonLink: "/contact"
     },
     {
-        title: "Monsoon Hair Spa Special",
+        title: "Monsoon Hair Care Special",
         profiles: [
             "/images/upcoming/profile-2.png"
         ],
@@ -132,7 +106,7 @@ export const offers = [
         buttonLink: "/contact"
     },
     {
-        title: "Men's Grooming Combo",
+        title: "Hair Colour & Botox Special",
         profiles: [
             "/images/upcoming/profile-4.png"
         ],
@@ -150,7 +124,7 @@ export const offers = [
         buttonLink: "/contact"
     },
     {
-        title: "Rejuvenating Spa Day",
+        title: "Mehendi & Skin Glow Combo",
         profiles: [
             "/images/upcoming/profile-6.png",
             "/images/upcoming/profile-5.png",

@@ -22,8 +22,8 @@ const ContactInfo = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <Link href="tel:+919876543210" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
-                                        +91 98765 43210
+                                    <Link href="tel:+917081500010" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
+                                        +91 70815 00010
                                         <svg
                                             width="23"
                                             height="17"
@@ -54,7 +54,7 @@ const ContactInfo = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <Link href="mailto:careers@anwarsbridalstudio.com" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
+                                    <Link href="mailto:careers@anwarbridalstudio.com" className="text-primary text-lg font-medium flex items-center gap-3 group hover:text-secondary dark:hover:text-white">
                                         Send an application
                                         <svg
                                             width="23"

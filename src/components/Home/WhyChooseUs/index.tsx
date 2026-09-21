@@ -56,21 +56,21 @@ const WhyChooseUs = () => {
                             </p>
                             <div className="flex items-center flex-wrap gap-30">
                                 <div className="text-start sm:pb-0 pb-5">
-                                    <h2 className="text-primary">10k+</h2>
+                                    <h2 className="text-primary">4.7&#9733;</h2>
                                     <p className="text-lg font-medium text-secondary dark:text-darktext">
-                                        Happy clients
+                                        Google rating
                                     </p>
                                 </div>
                                 <div className="text-start sm:pb-0 pb-5">
-                                    <h2 className="text-primary">25+</h2>
+                                    <h2 className="text-primary">1,146+</h2>
                                     <p className="text-lg font-medium text-secondary dark:text-darktext">
-                                        Expert stylists
+                                        Google reviews
                                     </p>
                                 </div>
                                 <div className="text-start sm:pb-0 pb-5">
-                                    <h2 className="text-primary">8+</h2>
+                                    <h2 className="text-primary">8</h2>
                                     <p className="text-lg font-medium text-secondary dark:text-darktext">
-                                        Years of excellence
+                                        Services offered
                                     </p>
                                 </div>
                             </div>

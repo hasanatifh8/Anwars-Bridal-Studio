@@ -159,14 +159,14 @@ const Testimonials = () => {
                                 <div className="col-span-8 md:ml-28 ml-0">
                                     <h2 className="max-w-72">What Our Clients Say</h2>
                                     <p className="text-[22px] leading-[2rem] font-normal text-SlateBlueText dark:text-opacity-80 py-10 max-w-632">
-                                        The grooming package here is unmatched. Clean, professional
-                                        and the staff always remember exactly how I like my beard
-                                        and haircut styled.
+                                        Got my engagement makeup and mehendi done here and couldn&apos;t
+                                        have asked for better. The team understood exactly the look
+                                        I wanted and the mehendi design was stunning.
                                     </p>
                                     <div className="flex items-center gap-8">
                                         <div>
                                             <Image
-                                                src="/images/upcoming/profile-4.png"
+                                                src="/images/upcoming/profile-3.png"
                                                 alt="testimonials-profile"
                                                 width={0}
                                                 height={0}
@@ -178,7 +178,7 @@ const Testimonials = () => {
                                         </div>
                                         <div>
                                             <p className="text-xl font-medium text-secondary dark:text-darktext pb-1">
-                                                Rohan Deshmukh
+                                                Priyanka Singh
                                             </p>
                                             <div className="flex items-center">
                                                 <svg

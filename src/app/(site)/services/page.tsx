@@ -18,7 +18,7 @@ const page = () => {
     <>
       <HeroSub
         title="Our Services & Pricing"
-        description="From hair and skin to nails, bridal and grooming — explore every service Anwar's Bridal Studio offers, with transparent pricing."
+        description="From bridal makeup to mehendi, hair styling and nail art — explore every service Anwar's Bridal Studio offers."
         breadcrumbLinks={breadcrumbLinks}
       />
       <section className="dark:bg-darkmode">

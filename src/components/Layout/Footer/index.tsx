@@ -22,7 +22,7 @@ const Footer: FC = () => {
                             />
                         </Link>
                         <p className="text-PaleCerulean text-base font-normal max-w-286 pt-5">
-                            A premium unisex salon for hair, skin, nails and bridal styling &mdash; crafted around you.
+                            Bridal makeup, hair styling and beauty services crafted for your special day.
                         </p>
                     </div>
                     <div>
@@ -75,7 +75,7 @@ const Footer: FC = () => {
                         </p>
                         <p className="text-base font-normal text-PaleCerulean flex items-center gap-2 pt-2">
                             <Icon icon="mdi:phone" className="text-primary" />
-                            <Link href="tel:+919876543210" className="hover:text-white">+91 98765 43210</Link>
+                            <Link href="tel:+917081500010" className="hover:text-white">+91 70815 00010</Link>
                         </p>
                     </div>
                     <div className="col-span-7 grid md:grid-cols-12 grid-cols-1 items-center gap-6">

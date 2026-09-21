@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: "Anwar's Bridal Studio | Unisex Salon",
     template: "%s | Anwar's Bridal Studio",
   },
-  description: "Anwar's Bridal Studio is a premium unisex salon offering hair, skin, nail and bridal styling services crafted around you.",
+  description: "Anwar's Bridal Studio offers bridal makeup, hair styling, mehendi, saree draping and nail art in Prayagraj — where beauty meets perfection.",
 };
 
 export default function RootLayout({

@@ -43,12 +43,14 @@ const ContactForm = () => {
                                         <label htmlFor="Specialist" className="pb-3 inline-block text-base text-SlateBlueText">Service*</label>
                                         <select id="Specialist" className="w-full text-base px-4 py-2.5 text-SlateBlueText rounded-lg border-border dark:text-white border-solid dark:bg-darkmode border transition-all duration-500 focus:border-primary dark:focus:border-primary dark:border-dark_border focus:border-solid focus:outline-0">
                                             <option value="">Choose a service</option>
-                                            <option value="Hair">Hair</option>
-                                            <option value="Skin & Face">Skin &amp; Face</option>
-                                            <option value="Nails">Nails</option>
-                                            <option value="Bridal & Makeup">Bridal &amp; Makeup</option>
-                                            <option value="Spa & Massage">Spa &amp; Massage</option>
-                                            <option value="Grooming">Grooming (Men)</option>
+                                            <option value="Bridal Makeup">Bridal Makeup</option>
+                                            <option value="Party Makeup">Party Makeup</option>
+                                            <option value="Hair Styling">Hair Styling</option>
+                                            <option value="Skin Treatment">Skin Treatment</option>
+                                            <option value="Nail Art">Nail Art</option>
+                                            <option value="Mehendi Design">Mehendi Design</option>
+                                            <option value="Saree Draping">Saree Draping</option>
+                                            <option value="Makeup Classes">Makeup Classes</option>
                                         </select>
                                     </div>
                                 </div>

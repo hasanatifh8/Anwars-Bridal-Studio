@@ -16,7 +16,7 @@ const Location = () => {
                     </div>
                     <div className="col-span-3">
                         <Link href="mailto:hello@anwarbridalstudio.com" className="sm:text-2xl text-xl text-secondary dark:text-SereneSky font-medium underline hover:dark:text-white hover:text-RegalBlue">hello@anwarbridalstudio.com</Link>
-                        <Link href="tel:+919876543210" className="sm:text-2xl text-xl text-secondary dark:text-primary flex items-center gap-2 hover:text-opacity-100 w-fit hover:dark:text-white"><span className="text-primary">Call</span>+91 98765 43210</Link>
+                        <Link href="tel:+917081500010" className="sm:text-2xl text-xl text-secondary dark:text-primary flex items-center gap-2 hover:text-opacity-100 w-fit hover:dark:text-white"><span className="text-primary">Call</span>+91 70815 00010</Link>
                     </div>
                 </div>
                 <div className="grid lg:grid-cols-9 md:grid-cols-6 grid-cols-1 gap-30 pt-12">
@@ -27,7 +27,7 @@ const Location = () => {
                         <p className="sm:text-2xl text-xl text-secondary dark:text-darktext font-normal max-w-266 leading-10">45 Indiranagar 100ft Road, Bengaluru, Karnataka 560038</p>
                     </div>
                     <div className="col-span-3">
-                        <Link href="mailto:bangalore@anwarsbridalstudio.com" className="sm:text-2xl text-xl text-secondary dark:text-SereneSky font-medium underline hover:dark:text-white hover:text-RegalBlue">bangalore@anwarsbridalstudio.com</Link>
+                        <Link href="mailto:bangalore@anwarbridalstudio.com" className="sm:text-2xl text-xl text-secondary dark:text-SereneSky font-medium underline hover:dark:text-white hover:text-RegalBlue">bangalore@anwarbridalstudio.com</Link>
                         <Link href="tel:+918765432109" className="sm:text-2xl text-secondary dark:text-primary text-xl flex items-center gap-2 w-fit hover:dark:text-white"><span className="text-primary">Call</span>+91 87654 32109</Link>
                     </div>
                 </div>

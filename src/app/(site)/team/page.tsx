@@ -17,7 +17,7 @@ const page = () => {
     <>
       <HeroSub
         title="Meet Our Expert Team"
-        description="Trained, certified and passionate — our stylists bring years of experience across hair, colour, makeup, nails and spa."
+        description="Trained, certified and passionate — our team brings years of experience across bridal makeup, hair, mehendi and nail art."
         breadcrumbLinks={breadcrumbLinks}
       />
       <OurTeam showTitle={false} />

@@ -14,7 +14,7 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="relative z-0  inline-block text-primary text-lg font-bold before:absolute before:content-[''] before:bg-primary/20  before:w-full before:h-2 before:-z-1 dark:before:-z-1 before:bottom-0"
                         >
-                            Pune&apos;s Premium Unisex Salon
+                            Be Your Own Kind of Beautiful
                         </p>
                         <h1
                             className="py-4"
@@ -30,7 +30,7 @@ const Hero = () => {
                             data-aos-duration="1000"
                             className="text-xl text-SlateBlueText dark:text-opacity-80 font-normal md:pb-14 pb-6"
                         >
-                            From haircuts and colour to bridal makeup, nails and spa &mdash; Anwar's Bridal Studio brings expert stylists and premium care to every visit.
+                            From bridal makeup and hair styling to mehendi and nail art &mdash; Anwar's Bridal Studio brings expert care to your every special occasion.
                         </p>
                         <div className="flex items-center md:justify-normal lg:justify-center justify-start flex-wrap gap-4">
                             <Link
