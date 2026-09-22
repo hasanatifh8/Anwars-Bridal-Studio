@@ -28,10 +28,10 @@ const Gallery = () => {
               </p>
               <div className="flex items-center flex-wrap gap-4">
                 <Link
-                  href="/team"
+                  href="/services"
                   className="btn_outline btn-2 hover-outline-slide-down"
                 >
-                  <span>Meet Our Stylists</span>
+                  <span>Explore Our Services</span>
                 </Link>
                 <Link
                   href="https://www.instagram.com/anwars_bridal_studio00/"

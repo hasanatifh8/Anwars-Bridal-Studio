@@ -74,7 +74,7 @@ const ContactInfo = () => {
                         </div>
                     </div>
                     <div className="md:pt-28 pt-11 md:pb-28 pb-16">
-                        <iframe src="https://www.google.com/maps?q=Anwar's,25.4555501,81.833386&output=embed" width="1114" height="477" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
+                        <iframe src="https://www.google.com/maps?q=25.4555501,81.833386&output=embed" width="1114" height="477" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg w-full"></iframe>
                     </div>
                 </div>
                 <div className="border-b border-solid  dark:border-dark_border"></div>

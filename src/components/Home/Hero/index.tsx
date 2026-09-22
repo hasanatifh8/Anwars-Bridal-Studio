@@ -67,37 +67,37 @@ const Hero = () => {
                     >
                         <div className="bg-ElectricAqua relative rounded-tl-166 rounded-br-166 w-full">
                             <Image
-                                src="/images/world-class-speakers/speakers_1.png"
-                                alt="Master stylist at Anwar's Bridal Studio"
+                                src="/images/gallery/bridal-01.jpg"
+                                alt="Bridal makeup by Anwar's Bridal Studio"
                                 width={0}
                                 height={0}
                                 quality={100}
                                 layout="responsive"
                                 sizes="100vh"
-                                className="w-full h-full"
+                                className="w-full h-full object-cover"
                             />
                             <div className="bg-LightYellow rounded-22 shadow-hero-box py-4 px-5 absolute top-16 -left-20">
-                                <p className="text-lg font-bold text-secondary">Anwar</p>
+                                <p className="text-lg font-bold text-secondary">4.7 &#9733;</p>
                                 <p className="text-base font-medium text-secondary text-center">
-                                    5.0 rating
+                                    Google rating
                                 </p>
                             </div>
                         </div>
                         <div className="bg-primary relative rounded-tr-166 rounded-bl-166 w-full mt-32">
                             <Image
-                                src="/images/world-class-speakers/speakers_3.png"
-                                alt="Bridal makeup artist at Anwar's Bridal Studio"
+                                src="/images/gallery/bridal-04.jpg"
+                                alt="Bridal look by Anwar's Bridal Studio"
                                 width={0}
                                 height={0}
                                 quality={100}
                                 layout="responsive"
                                 sizes="100vh"
-                                className="w-full h-full"
+                                className="w-full h-full object-cover"
                             />
                             <div className="bg-Aquamarine rounded-22 shadow-hero-box py-4 px-5 absolute top-24 -right-20 xl:inline-block hidden">
-                                <p className="text-lg font-bold text-secondary">Sanya Kapoor</p>
+                                <p className="text-lg font-bold text-secondary">1,146+</p>
                                 <p className="text-base font-medium text-secondary text-center">
-                                    4.9 rating
+                                    Happy clients
                                 </p>
                             </div>
                         </div>

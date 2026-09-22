@@ -1,40 +1,3 @@
-export const stylists = [
-    {
-        id: 1,
-        src: "/images/world-class-speakers/speakers_1.png",
-        alt: "Founder & Master Stylist",
-        name: "Anwar",
-        designation: "Founder & Master Stylist",
-    },
-    {
-        id: 2,
-        src: "/images/world-class-speakers/speakers_2.png",
-        alt: "Colour Specialist",
-        name: "Priya Nair",
-        designation: "Colour Specialist",
-    },
-    {
-        id: 3,
-        src: "/images/world-class-speakers/speakers_3.png",
-        alt: "Bridal Makeup Artist",
-        name: "Sanya Kapoor",
-        designation: "Bridal Makeup Artist",
-    },
-    {
-        id: 4,
-        src: "/images/world-class-speakers/speakers_4.png",
-        alt: "Nail Art Expert",
-        name: "Ritu Sharma",
-        designation: "Nail Art Expert",
-    },
-    {
-        id: 5,
-        src: "/images/world-class-speakers/speakers_5.png",
-        alt: "Skin Specialist & Mehendi Artist",
-        name: "Meera Iyer",
-        designation: "Skin Specialist & Mehendi Artist",
-    },
-];
 
 export type ServiceItem = {
     name: string;
@@ -88,57 +51,29 @@ export const services: ServiceItem[] = [
 export const offers = [
     {
         title: "Bridal Glow Package",
-        profiles: [
-            "/images/upcoming/profile-1.png",
-            "/images/upcoming/profile-3.png"
-        ],
-        stylist: "Sanya Kapoor & Team",
-        buttonText: "Book Now",
-        buttonLink: "/contact"
-    },
-    {
-        title: "Monsoon Hair Care Special",
-        profiles: [
-            "/images/upcoming/profile-2.png"
-        ],
-        stylist: "Priya Nair",
+        image: "/images/gallery/bridal-07.jpg",
+        description: "Makeup, hair and draping bundled for your big day.",
         buttonText: "Book Now",
         buttonLink: "/contact"
     },
     {
         title: "Hair Colour & Botox Special",
-        profiles: [
-            "/images/upcoming/profile-4.png"
-        ],
-        stylist: "Anwar",
+        image: "/images/gallery/bridal-09.jpg",
+        description: "Anwar's signature combo for smooth, glossy hair.",
         buttonText: "Book Now",
         buttonLink: "/contact"
     },
     {
         title: "Festive Nail Art Package",
-        profiles: [
-            "/images/upcoming/profile-7.png"
-        ],
-        stylist: "Ritu Sharma",
+        image: "/images/gallery/party-makeup-01.jpg",
+        description: "Custom nail art to match your festive outfit.",
         buttonText: "Book Now",
         buttonLink: "/contact"
     },
     {
         title: "Mehendi & Skin Glow Combo",
-        profiles: [
-            "/images/upcoming/profile-6.png",
-            "/images/upcoming/profile-5.png",
-        ],
-        stylist: "Meera Iyer & Team",
-        buttonText: "Book Now",
-        buttonLink: "/contact"
-    },
-    {
-        title: "Skin Brightening Combo",
-        profiles: [
-            "/images/upcoming/profile-2.png"
-        ],
-        stylist: "Meera Iyer",
+        image: "/images/gallery/mehendi-02.jpg",
+        description: "Intricate mehendi paired with a pre-event facial.",
         buttonText: "Book Now",
         buttonLink: "/contact"
     },

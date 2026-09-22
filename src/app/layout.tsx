@@ -13,7 +13,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-headin
 
 export const metadata: Metadata = {
   title: {
-    default: "Anwar's Bridal Studio | Unisex Salon",
+    default: "Anwar's Bridal Studio | Where Beauty Meets Perfection",
     template: "%s | Anwar's Bridal Studio",
   },
   description: "Anwar's Bridal Studio offers bridal makeup, hair styling, mehendi, saree draping and nail art in Prayagraj — where beauty meets perfection.",

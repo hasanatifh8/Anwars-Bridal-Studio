@@ -5,6 +5,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
+const galleryImages = [
+    "/images/gallery/bridal-02.jpg",
+    "/images/gallery/mehendi-01.jpg",
+    "/images/gallery/party-makeup-02.jpg",
+    "/images/gallery/skin-transformation.jpg",
+    "/images/gallery/bridal-05.jpg",
+];
+
 const ThumbnailCarousel: React.FC = () => {
     const [activeIndex, setActiveIndex] = useState<number>(0);
     const mainSliderRef = useRef<Slider | null>(null);
@@ -90,104 +98,36 @@ const ThumbnailCarousel: React.FC = () => {
         <>
             <div>
                 <Slider {...settingsFor} ref={mainSliderRef} className="pb-3">
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_1.png"
-                            alt="Client transformation"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_2.jpg"
-                            alt="Client transformation"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_3.png"
-                            alt="Client transformation"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_4.jpg"
-                            alt="Client transformation"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
+                    {galleryImages.map((src, index) => (
+                        <div key={index}>
+                            <Image
+                                src={src}
+                                alt="Anwar's Bridal Studio work"
+                                width={0}
+                                height={0}
+                                quality={100}
+                                layout="responsive"
+                                sizes="100vh"
+                                className="rounded-lg object-cover"
+                            />
+                        </div>
+                    ))}
                 </Slider>
                 <Slider {...settingsNav} ref={navSliderRef} className="thumb">
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_1.png"
-                            alt="Client transformation thumbnail"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_2.jpg"
-                            alt="Client transformation thumbnail"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_3.png"
-                            alt="Client transformation thumbnail"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/ThumbnailSlider/Slider_4.jpg"
-                            alt="Client transformation thumbnail"
-                            width={0}
-                            height={0}
-                            quality={100}
-                            layout="responsive"
-                            sizes="100vh"
-                            className="rounded-lg"
-                        />
-                    </div>
+                    {galleryImages.map((src, index) => (
+                        <div key={index}>
+                            <Image
+                                src={src}
+                                alt="Anwar's Bridal Studio work thumbnail"
+                                width={0}
+                                height={0}
+                                quality={100}
+                                layout="responsive"
+                                sizes="100vh"
+                                className="rounded-lg object-cover"
+                            />
+                        </div>
+                    ))}
                 </Slider>
             </div>
         </>

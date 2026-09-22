@@ -34,9 +34,6 @@ const Footer: FC = () => {
                                 <Link href="/services">Services</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
-                                <Link href="/team">Our Team</Link>
-                            </li>
-                            <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
                                 <Link href="/blog">Blog</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
@@ -71,7 +68,7 @@ const Footer: FC = () => {
                         </p>
                         <p className="text-base font-normal text-PaleCerulean flex items-center gap-2 pt-2">
                             <Icon icon="mdi:map-marker" className="text-primary" />
-                            123 Fashion Street, Camp Area, Pune, Maharashtra 411001
+                            Tashkent Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001
                         </p>
                         <p className="text-base font-normal text-PaleCerulean flex items-center gap-2 pt-2">
                             <Icon icon="mdi:phone" className="text-primary" />

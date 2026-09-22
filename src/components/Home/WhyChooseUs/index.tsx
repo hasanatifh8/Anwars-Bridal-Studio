@@ -34,9 +34,9 @@ const WhyChooseUs = () => {
     };
 
     const gallery = [
-        "/images/ThumbnailSlider/Slider_1.png",
-        "/images/contact-page/contact.jpg",
-        "/images/ThumbnailSlider/Slider_2.jpg",
+        "/images/gallery/skin-transformation.jpg",
+        "/images/gallery/bridal-06.jpg",
+        "/images/gallery/party-makeup-01.jpg",
     ];
 
     return (
