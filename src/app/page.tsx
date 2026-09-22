@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from "next";
 import Hero from '@/components/Home/Hero';
 import Gallery from '@/components/Home/Gallery';
+import VideoShowcase from '@/components/Home/VideoShowcase';
 import SignatureOffer from '@/components/Home/SignatureOffer';
 import WhyChooseUs from '@/components/Home/WhyChooseUs';
 import SpecialOffers from '@/components/Home/SpecialOffers';
@@ -17,6 +18,7 @@ export default function Home() {
     <main>
       <Hero />
       <Gallery/>
+      <VideoShowcase/>
       <SignatureOffer/>
       <WhyChooseUs/>
       <SpecialOffers/>
