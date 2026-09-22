@@ -19,6 +19,9 @@ export async function generateMetadata({ params }: any) {
         "title",
         "author",
         "content",
+        "excerpt",
+        "coverImage",
+        "slug",
         "metadata",
     ]);
 
@@ -28,7 +31,16 @@ export async function generateMetadata({ params }: any) {
     if (post) {
         const metadata = {
             title: `${post.title || "Single Post Page"} | ${siteName}`,
+            description: post.excerpt,
             author: authorName,
+            alternates: { canonical: `/blog/${post.slug}/` },
+            openGraph: {
+                title: post.title,
+                description: post.excerpt,
+                url: `/blog/${post.slug}/`,
+                type: "article",
+                images: post.coverImage ? [post.coverImage] : undefined,
+            },
             robots: {
                 index: true,
                 follow: true,

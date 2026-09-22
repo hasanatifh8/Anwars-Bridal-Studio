@@ -47,7 +47,7 @@ const Testimonials = () => {
                             <div className="grid md:grid-cols-12 grid-cols-1 items-center">
                                 <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className="col-span-4 bg-LightSkyBlue sm:rounded-br-214 rounded-br-182 sm:rounded-tl-214 rounded-tl-182 relative before:content-[''] before:absolute before:bg-[url('/images/testimonials/quotes.png')] before:w-109 before:h-109 before:-right-10 before:top-32 lg:inline-block hidden">
                                     <Image
-                                        src="/images/world-class-speakers/speakers_2.png"
+                                        src="/images/testimonials/medha-jalota.jpg"
                                         alt="testimonials"
                                         width={0}
                                         height={0}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                                     <div className="flex items-center gap-8">
                                         <div>
                                             <Image
-                                                src="/images/upcoming/profile-1.png"
+                                                src="/images/testimonials/medha-jalota.jpg"
                                                 alt="testimonials-profile"
                                                 width={0}
                                                 height={0}

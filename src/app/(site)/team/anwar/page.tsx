@@ -4,8 +4,18 @@ import BookingBanner from "@/components/Home/BookingBanner";
 import React from "react";
 import { Metadata } from "next";
 
+const description = "Meet Mohammad Anwar, co-founder and hair specialist at Anwar's Bridal Studio, Prayagraj — expert in hair styling, colour and hair botox treatments for men and women.";
+
 export const metadata: Metadata = {
-  title: "Mohammad Anwar | Hair Specialist | Anwar's Bridal Studio",
+  title: "Mohammad Anwar | Hair Specialist",
+  description,
+  alternates: { canonical: "/team/anwar/" },
+  openGraph: {
+    title: "Mohammad Anwar | Hair Specialist | Anwar's Bridal Studio",
+    description,
+    url: "/team/anwar/",
+    images: ["/images/team/anwar.jpg"],
+  },
 };
 
 const page = () => {

@@ -3,7 +3,8 @@ import NotFound from "@/components/NotFound";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 Page | Anwar's Bridal Studio",
+  title: "Page Not Found",
+  robots: { index: false, follow: false },
 };
 
 const ErrorPage = () => {

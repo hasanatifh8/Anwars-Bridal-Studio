@@ -5,8 +5,18 @@ import React from "react";
 import HeroSub from "@/components/SharedComponent/HeroSub";
 import { Metadata } from "next";
 import BookingBanner from "@/components/Home/BookingBanner";
+const description = "Visit or call Anwar's Bridal Studio at Tashkent Marg, Civil Lines, Prayagraj, or book your bridal, party makeup, hair or mehendi appointment online.";
+
 export const metadata: Metadata = {
-    title: "Contact & Book Appointment | Anwar's Bridal Studio",
+    title: "Contact & Book Appointment",
+    description,
+    alternates: { canonical: "/contact/" },
+    openGraph: {
+        title: "Contact & Book Appointment | Anwar's Bridal Studio",
+        description,
+        url: "/contact/",
+        images: ["/images/gallery/bridal-10.jpg"],
+    },
 };
 
 const page = () => {

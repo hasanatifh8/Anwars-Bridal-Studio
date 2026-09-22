@@ -5,8 +5,18 @@ import ServicesList from "@/components/Home/ServicesList";
 import BookingBanner from "@/components/Home/BookingBanner";
 import Testimonials from "@/components/Home/Testimonials";
 import { Metadata } from "next";
+const description = "Bridal makeup, party makeup, hair styling, skin treatment, nail art, mehendi design, saree draping and makeup classes at Anwar's Bridal Studio, Prayagraj.";
+
 export const metadata: Metadata = {
-  title: "Services & Pricing | Anwar's Bridal Studio",
+  title: "Services & Pricing",
+  description,
+  alternates: { canonical: "/services/" },
+  openGraph: {
+    title: "Services & Pricing | Anwar's Bridal Studio",
+    description,
+    url: "/services/",
+    images: ["/images/gallery/bridal-01.jpg"],
+  },
 };
 
 const page = () => {

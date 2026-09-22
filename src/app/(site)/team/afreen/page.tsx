@@ -4,8 +4,18 @@ import BookingBanner from "@/components/Home/BookingBanner";
 import React from "react";
 import { Metadata } from "next";
 
+const description = "Meet Afreen Anwar, co-founder and bridal makeup artist at Anwar's Bridal Studio, Prayagraj — specialising in bridal makeup, party makeup and skin treatments for women.";
+
 export const metadata: Metadata = {
-  title: "Afreen Anwar | Bridal Makeup Artist | Anwar's Bridal Studio",
+  title: "Afreen Anwar | Bridal Makeup Artist",
+  description,
+  alternates: { canonical: "/team/afreen/" },
+  openGraph: {
+    title: "Afreen Anwar | Bridal Makeup Artist | Anwar's Bridal Studio",
+    description,
+    url: "/team/afreen/",
+    images: ["/images/team/afreen-anwar.jpg"],
+  },
 };
 
 const page = () => {

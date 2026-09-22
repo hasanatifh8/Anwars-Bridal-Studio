@@ -3,8 +3,17 @@ import BlogList from "@/components/Blog/BlogList";
 import HeroSub from "@/components/SharedComponent/HeroSub";
 import { Metadata } from "next";
 import BookingBanner from "@/components/Home/BookingBanner";
+const description = "Hair, beauty and bridal tips from the Anwar's Bridal Studio team — hair care, mehendi trends, wedding season prep and more.";
+
 export const metadata: Metadata = {
-  title: "Blog | Anwar's Bridal Studio",
+  title: "Hair, Beauty & Wellness Blog",
+  description,
+  alternates: { canonical: "/blog/" },
+  openGraph: {
+    title: "Hair, Beauty & Wellness Blog | Anwar's Bridal Studio",
+    description,
+    url: "/blog/",
+  },
 };
 
 const BlogPage = () => {
