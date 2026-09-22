@@ -8,10 +8,10 @@ const Logo: React.FC = () => {
             <Image
                 src="/images/logo/anwars-logo.webp"
                 alt="Anwar's Bridal Studio"
-                width={64}
-                height={64}
+                width={80}
+                height={80}
                 quality={100}
-                className="rounded-full"
+                className="rounded-full w-20 h-20"
             />
         </Link>
     );

@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="pointer-events-none absolute top-1/3 -right-32 h-[28rem] w-[28rem] rounded-full bg-ElectricAqua/20 dark:bg-ElectricAqua/15 blur-3xl" />
             <div className="pointer-events-none absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-RegalBlue/20 dark:bg-RegalBlue/25 blur-3xl" />
 
-            <div className="container relative py-16 md:py-24">
+            <div className="container relative pt-36 pb-16 md:pt-32 md:pb-24">
                 <div className="grid lg:grid-cols-12 grid-cols-1 items-center gap-30">
                     <div className="col-span-6">
                         <p
