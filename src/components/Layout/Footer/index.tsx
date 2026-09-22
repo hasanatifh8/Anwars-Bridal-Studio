@@ -11,14 +11,12 @@ const Footer: FC = () => {
                     <div>
                         <Link href="/">
                             <Image
-                                src="/images/footer/footer-logo-white.svg"
+                                src="/images/logo/anwars-logo.webp"
                                 alt="Anwar's Bridal Studio"
-                                width={0}
-                                height={0}
+                                width={80}
+                                height={80}
                                 quality={100}
-                                layout="responsive"
-                                sizes="100vh"
-                                className="w-full h-full"
+                                className="rounded-full"
                             />
                         </Link>
                         <p className="text-PaleCerulean text-base font-normal max-w-286 pt-5">
@@ -32,6 +30,12 @@ const Footer: FC = () => {
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
                                 <Link href="/services">Services</Link>
+                            </li>
+                            <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
+                                <Link href="/team/anwar">Anwar</Link>
+                            </li>
+                            <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
+                                <Link href="/team/afreen">Afreen Anwar</Link>
                             </li>
                             <li className="text-PaleCerulean sm:text-xl text-lg font-normal transition-all duration-0.4s hover:text-primary">
                                 <Link href="/blog">Blog</Link>
