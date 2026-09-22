@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { whatsappBookingLink } from "@/utils/whatsapp";
 
 const Hero = () => {
     return (
@@ -66,6 +67,18 @@ const Hero = () => {
                                     Our Services
                                 </span>
                             </Link>
+                            <a
+                                href={whatsappBookingLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-aos="fade-up"
+                                data-aos-delay="650"
+                                data-aos-duration="1000"
+                                className="inline-flex items-center gap-2 rounded-lg border border-[#25D366]/60 bg-[#25D366]/10 px-6 py-3.5 text-[#25D366] font-medium transition-all duration-0.4s hover:bg-[#25D366] hover:text-white"
+                            >
+                                <Icon icon="mdi:whatsapp" className="text-xl" />
+                                Book on WhatsApp
+                            </a>
                         </div>
                         <div
                             data-aos="fade-up"

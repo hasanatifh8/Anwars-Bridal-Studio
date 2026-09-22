@@ -4,6 +4,7 @@ import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import { ThemeProvider } from "next-themes";
 import ScrollToTop from '@/components/ScrollToTop';
+import WhatsAppButton from '@/components/WhatsAppButton';
 import Aoscompo from "@/utils/aos";
 import NextTopLoader from 'nextjs-toploader';
 import { Metadata } from "next";
@@ -108,6 +109,7 @@ export default function RootLayout({
             <Footer />
           </Aoscompo>
           <ScrollToTop />
+          <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>
