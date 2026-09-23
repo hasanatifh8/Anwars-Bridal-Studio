@@ -82,7 +82,10 @@ const localBusinessJsonLd = {
     ratingValue: "4.7",
     reviewCount: "1146",
   },
-  sameAs: ["https://www.instagram.com/anwars_bridal_studio00/"],
+  sameAs: [
+    "https://www.instagram.com/anwars_bridal_studio00/",
+    "https://www.facebook.com/anwarsthepersonalitymaker/",
+  ],
 };
 
 export default function RootLayout({

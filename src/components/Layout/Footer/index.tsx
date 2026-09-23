@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { whatsappBookingLink } from "@/utils/whatsapp";
 
 const Footer: FC = () => {
     return (
@@ -48,7 +49,7 @@ const Footer: FC = () => {
                     <div>
                         <ul className="flex items-center gap-5">
                             <li>
-                                <Link href="#" className="group" aria-label="Facebook">
+                                <Link href="https://www.facebook.com/anwarsthepersonalitymaker/" target="_blank" rel="noopener noreferrer" className="group" aria-label="Facebook">
                                     <Icon icon="mdi:facebook" className="text-2xl text-white group-hover:text-ElectricAqua" />
                                 </Link>
                             </li>
@@ -58,7 +59,7 @@ const Footer: FC = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#" className="group" aria-label="WhatsApp">
+                                <Link href={whatsappBookingLink} target="_blank" rel="noopener noreferrer" className="group" aria-label="WhatsApp">
                                     <Icon icon="mdi:whatsapp" className="text-2xl text-white group-hover:text-ElectricAqua" />
                                 </Link>
                             </li>
