@@ -2,6 +2,7 @@ import HeroSub from "@/components/SharedComponent/HeroSub";
 import React from "react";
 import '@/Style/style.css'
 import ServicesList from "@/components/Home/ServicesList";
+import RateCard from "@/components/Home/RateCard";
 import BookingBanner from "@/components/Home/BookingBanner";
 import Testimonials from "@/components/Home/Testimonials";
 import { Metadata } from "next";
@@ -34,6 +35,17 @@ const page = () => {
       <section className="dark:bg-darkmode">
         <div className="container">
           <ServicesList/>
+        </div>
+      </section>
+      <section className="dark:bg-darkmode pt-0">
+        <div className="container">
+          <div className="text-center max-w-632 mx-auto pb-4">
+            <h2 className="text-secondary dark:text-white">Essential Services Rate Card</h2>
+            <p className="text-lg text-SlateBlueText dark:text-opacity-80">
+              Waxing, de-tanning and face treatments — transparent, fixed pricing.
+            </p>
+          </div>
+          <RateCard/>
         </div>
       </section>
       <div>

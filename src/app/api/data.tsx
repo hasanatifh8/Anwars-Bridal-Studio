@@ -48,6 +48,76 @@ export const services: ServiceItem[] = [
     },
 ];
 
+export type RateCategory = {
+    title: string;
+    icon: string;
+    items: { service: string; rate: string }[];
+};
+
+export const rateCard: RateCategory[] = [
+    {
+        title: "Face Masque",
+        icon: "mdi:face-woman-shimmer-outline",
+        items: [
+            { service: "Insta Glow", rate: "300*" },
+            { service: "Skin Lightening, Radiance", rate: "500*" },
+            { service: "Power Masque", rate: "500*" },
+            { service: "Summer Spl Mineral De-tan", rate: "1500*" },
+        ],
+    },
+    {
+        title: "De-Tan",
+        icon: "mdi:white-balance-sunny",
+        items: [
+            { service: "Face De-tan", rate: "350*" },
+            { service: "Full Hand", rate: "400*" },
+            { service: "Face + Front", rate: "450*" },
+            { service: "Face + Blouse Line", rate: "450*" },
+            { service: "Full Body", rate: "2000*" },
+        ],
+    },
+    {
+        title: "Rica Waxing",
+        icon: "mdi:leaf",
+        items: [
+            { service: "Under Arms", rate: "150*" },
+            { service: "Half Arms", rate: "300*" },
+            { service: "Full Arms", rate: "450*" },
+            { service: "Half Leg", rate: "400*" },
+            { service: "Full Leg", rate: "650*" },
+            { service: "Full Back", rate: "900*" },
+            { service: "Full Front", rate: "1000*" },
+            { service: "Bikini", rate: "1000*" },
+            { service: "Full Body", rate: "3000*" },
+        ],
+    },
+    {
+        title: "Chocolate Waxing",
+        icon: "mdi:coffee-outline",
+        items: [
+            { service: "Under Arms", rate: "100*" },
+            { service: "Half Arms", rate: "200*" },
+            { service: "Full Arms", rate: "350*" },
+            { service: "Half Leg", rate: "250*" },
+            { service: "Full Leg", rate: "450*" },
+            { service: "Full Back", rate: "750*" },
+            { service: "Full Front", rate: "800*" },
+            { service: "Full Body", rate: "2000*" },
+        ],
+    },
+    {
+        title: "Face Wax",
+        icon: "mdi:razor-double-edge",
+        items: [
+            { service: "Upper Lip", rate: "50*" },
+            { service: "Chin", rate: "50*" },
+            { service: "Jawline", rate: "100*" },
+            { service: "Face", rate: "200*" },
+            { service: "Face Wax + Face Pack", rate: "350*" },
+        ],
+    },
+];
+
 export const offers = [
     {
         title: "Bridal Glow Package",
