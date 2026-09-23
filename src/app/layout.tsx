@@ -5,6 +5,7 @@ import Footer from "@/components/Layout/Footer";
 import { ThemeProvider } from "next-themes";
 import ScrollToTop from '@/components/ScrollToTop';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import { Toaster } from 'react-hot-toast';
 import Aoscompo from "@/utils/aos";
 import NextTopLoader from 'nextjs-toploader';
 import { Metadata } from "next";
@@ -113,6 +114,7 @@ export default function RootLayout({
           </Aoscompo>
           <ScrollToTop />
           <WhatsAppButton />
+          <Toaster position="top-center" />
         </ThemeProvider>
       </body>
     </html>

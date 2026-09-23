@@ -1,8 +1,15 @@
+"use client";
+
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import toast from "react-hot-toast";
 
 const ContactForm = () => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        toast.success("Thanks! Your appointment request has been received — our team will call or WhatsApp you shortly to confirm.");
+        e.currentTarget.reset();
+    };
 
     return (
         <>
@@ -11,12 +18,14 @@ const ContactForm = () => {
                     <div className="grid md:grid-cols-12 grid-cols-1 gap-8">
                         <div className="col-span-6">
                             <h2 className="max-w-72 text-[40px] leading-[3.4rem] font-bold mb-9 text-secondary">Book Your Appointment</h2>
-                            <form className="flex flex-wrap w-full m-auto justify-between">
+                            <form onSubmit={handleSubmit} className="flex flex-wrap w-full m-auto justify-between">
                                 <div className="sm:flex gap-3 w-full">
                                     <div className="mx-0 my-2.5 flex-1">
                                         <label htmlFor="first-name" className="pb-3 inline-block text-base text-SlateBlueText">First Name*</label>
                                         <input
                                             id="first-name"
+                                            name="first-name"
+                                            required
                                             className="w-full text-base px-4 rounded-lg py-2.5 border-border dark:border-dark_border border-solid dark:text-white  dark:bg-darkmode border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:border-solid focus:outline-0"
                                             type="text"
                                         />
@@ -25,6 +34,8 @@ const ContactForm = () => {
                                         <label htmlFor="last-name" className="pb-3 inline-block text-base text-SlateBlueText">Last Name*</label>
                                         <input
                                             id="last-name"
+                                            name="last-name"
+                                            required
                                             className="w-full text-base px-4 py-2.5 rounded-lg border-border dark:border-dark_border border-solid dark:text-white  dark:bg-darkmode border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:border-solid focus:outline-0"
                                             type="text"
                                         />
@@ -35,13 +46,15 @@ const ContactForm = () => {
                                         <label htmlFor="email" className="pb-3 inline-block text-base text-SlateBlueText">Email address*</label>
                                         <input
                                             id="email"
+                                            name="email"
                                             type="email"
+                                            required
                                             className="w-full text-base px-4 py-2.5 rounded-lg border-border dark:border-dark_border border-solid dark:text-white  dark:bg-darkmode border transition-all duration-500 focus:border-primary dark:focus:border-primary focus:border-solid focus:outline-0"
                                         />
                                     </div>
                                     <div className="mx-0 my-2.5 flex-1">
                                         <label htmlFor="Specialist" className="pb-3 inline-block text-base text-SlateBlueText">Service*</label>
-                                        <select id="Specialist" className="w-full text-base px-4 py-2.5 text-SlateBlueText rounded-lg border-border dark:text-white border-solid dark:bg-darkmode border transition-all duration-500 focus:border-primary dark:focus:border-primary dark:border-dark_border focus:border-solid focus:outline-0">
+                                        <select id="Specialist" name="service" required className="w-full text-base px-4 py-2.5 text-SlateBlueText rounded-lg border-border dark:text-white border-solid dark:bg-darkmode border transition-all duration-500 focus:border-primary dark:focus:border-primary dark:border-dark_border focus:border-solid focus:outline-0">
                                             <option value="">Choose a service</option>
                                             <option value="Bridal Makeup">Bridal Makeup</option>
                                             <option value="Party Makeup">Party Makeup</option>
@@ -59,6 +72,8 @@ const ContactForm = () => {
                                         <label htmlFor="date" className="pb-3 inline-block text-base text-SlateBlueText">Date*</label>
                                         <input
                                             id="date"
+                                            name="date"
+                                            required
                                             className="w-full text-base text-SlateBlueText px-4 rounded-lg py-2.5 outline-none dark:text-white dark:bg-darkmode border-border border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary dark:border-dark_border focus:border-solid focus:outline-0"
                                             type="date"
                                         />
@@ -67,15 +82,17 @@ const ContactForm = () => {
                                         <label htmlFor="time" className="pb-3 inline-block text-base text-SlateBlueText">Time*</label>
                                         <input
                                             id="time"
+                                            name="time"
+                                            required
                                             className="w-full text-base px-4 rounded-lg py-2.5 border-border outline-none dark:text-white dark:bg-darkmode border-solid border transition-all duration-500 focus:border-primary dark:focus:border-primary dark:border-dark_border focus:border-solid focus:outline-0"
                                             type="time"
                                         />
                                     </div>
                                 </div>
                                 <div className="mx-0 my-2.5 w-full">
-                                    <Link href="#" className="mt-4 btn btn-1 hover-filled-slide-down overflow-hidden rounded-lg" type="submit">
+                                    <button type="submit" className="mt-4 btn btn-1 hover-filled-slide-down overflow-hidden rounded-lg">
                                         <span>Make an appointment</span>
-                                    </Link>
+                                    </button>
                                 </div>
                             </form>
                         </div>

@@ -31,8 +31,8 @@ const page = () => {
         description="Walk in, call us, or book your slot online — our team is ready to help you look and feel your best."
         breadcrumbLinks={breadcrumbLinks}
       />
-      <ContactInfo />
       <ContactForm />
+      <ContactInfo />
       <Location />
       <BookingBanner/>
     </>
