@@ -32,9 +32,9 @@ const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
         )}
       </button>
       {submenuOpen && item.submenu && (
-        <div className="bg-white p-2 w-full">
+        <div className="bg-white dark:bg-darklight p-2 w-full rounded-lg">
           {item.submenu.map((subItem, index) => (
-            <Link key={index} href={subItem.href} className="block py-2 text-gray-500 hover:bg-gray-200">
+            <Link key={index} href={subItem.href} className="block py-2 px-2 rounded-md text-gray-500 dark:text-darktext hover:bg-gray-200 dark:hover:bg-darkmode dark:hover:text-white">
               {subItem.label}
             </Link>
           ))}
