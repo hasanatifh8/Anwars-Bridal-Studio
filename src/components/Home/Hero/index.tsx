@@ -6,6 +6,18 @@ import { whatsappBookingLink } from "@/utils/whatsapp";
 const Hero = () => {
     return (
         <section className="relative overflow-hidden bg-IcyBreeze dark:bg-darkmode !py-0">
+            {/* Stunning low-opacity backdrop */}
+            <div className="pointer-events-none absolute inset-0 z-0">
+                <Image
+                    src="/images/hero/hero-backdrop.jpg"
+                    alt=""
+                    fill
+                    priority
+                    sizes="100vw"
+                    className="object-cover object-[80%_30%] opacity-[0.16] dark:opacity-[0.32]"
+                />
+                <div className="absolute inset-0 bg-IcyBreeze/60 dark:bg-darkmode/60" />
+            </div>
             {/* Ambient glow accents */}
             <div className="pointer-events-none absolute -top-32 -left-24 h-96 w-96 rounded-full bg-primary/30 dark:bg-primary/25 blur-3xl" />
             <div className="pointer-events-none absolute top-1/3 -right-32 h-[28rem] w-[28rem] rounded-full bg-ElectricAqua/20 dark:bg-ElectricAqua/15 blur-3xl" />
